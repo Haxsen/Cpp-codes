@@ -33,12 +33,6 @@ class doubleLinkList{
 		}
 		
 		void insertStart(int value){
-			/*node *temp = new node();
-			temp->data = value;
-			temp->next = head;
-			head->prev = temp;
-			head = temp;
-			head->prev = NULL;*/
 			node *temp = new node;
 			temp->data = value;
 			if(head == NULL){
