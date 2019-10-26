@@ -12,7 +12,7 @@ class doubleLinkList{
 		node *head, *tail;
 		
 	public:
-		list(){
+		doubleLinkList(){
 			head = NULL;
 			tail = NULL;
 		}
@@ -92,11 +92,12 @@ class doubleLinkList{
 
 int main(){
 	doubleLinkList list1;
-	list1;
 	int x, insertStart, delNode, insertEnd;
 	cout<<"\nEnter the numbers to insert: ";
-	while(x != -999){
+	while(true){
 		cin>>x;
+		if (x == -999)
+		    break;
 		list1.insertEnd(x);
 	}
 	cout<<"\nEnter the number to insert in Start: ";
@@ -109,6 +110,9 @@ int main(){
 	list1.insertEnd(insertEnd);
 	cout<<"\nEnter the number to delete: ";
 	cin>>delNode;
-	list1.delNode(delNode);*/
+	list1.delNode(delNode);
+	cout<<"\nNormal: ";
+	list1.display();
+	cout<<"\nReversed: ";
 	list1.displayback();
 }
