@@ -99,16 +99,16 @@ int main(){
 		cin>>x;
 		list1.insertEnd(x);
 	}
-	/*cout<<"\nEnter the number to insert in Start: ";*/
+	cout<<"\nEnter the number to insert in Start: ";
 	cin>>insertStart;
 	list1.insertStart(insertStart);
 	cin>>insertStart;
 	list1.insertStart(insertStart);
-	/*cout<<"\nEnter the number to insert in End: ";
+	cout<<"\nEnter the number to insert in End: ";
 	cin>>insertEnd;
-	//list1.insertEnd(insertEnd);
+	list1.insertEnd(insertEnd);
 	cout<<"\nEnter the number to delete: ";
 	cin>>delNode;
-	//list1.delNode(delNode);*/
+	list1.delNode(delNode);*/
 	list1.displayback();
 }
