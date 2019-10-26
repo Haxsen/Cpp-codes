@@ -68,24 +68,6 @@ class doubleLinkList{
 			}
 		}
 		
-		/*void delNode(int value){
-			node *temp = new node();
-			node *temp1 = new node();
-			temp = head;
-			while(temp != NULL){
-				if(temp->data == value && temp == head){
-					head = head->next;
-					head->prev = NULL;
-					break;
-				}else if(temp->data == value){
-					temp1->next = temp;
-					break;
-				}
-				temp1 = temp;
-				temp = temp->next;
-			}
-		}*/
-		
 		void display(){
 			node *temp = new node();
 			temp = head;
