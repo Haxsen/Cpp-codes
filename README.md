@@ -1,2 +1,2 @@
-# A Doubly Linked List written in C++ 
+# Some of my codes written in C++ 
 Run the main code in your preferred IDE compiler to test.
